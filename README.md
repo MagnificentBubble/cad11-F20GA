@@ -1,7 +1,7 @@
 # cad11-F20GA
 ## Aims
 The aim of this project is to fulfill the criteria laid out by the F20GA Coursework Specification.
-  Excerpt:
+### Excerpt:
       There are three coursework deliverables: 
       1. A high-quality offline rendering of your TV show idea. This deliverable is a rendered image of your scene including four different models, 
       plus any necessary lights, materials and scene structure items.  
