@@ -22,10 +22,10 @@ The tome was made with the offset loop cut tool on a flattened and elongated cub
 The desk was made by slicing an elongated cube object into three, then elongating the two outer faces of the bottom side. Details were added to the model by cutting faces into surfaces and extruding along normals and beveling the edges.
 
 #### Drawers
-The Drawers were made using similar extrusion techniques on a shaped cube.
+The Drawers were made using similar extrusion techniques on a shaped cube. These are intended to be animated when interacted with in part 3.
 
 ### Orrery
-The Orrery 
+The Orrery is intended to serve as the main animated piece and is made of three models. The Sun at the centre, the Earth, and the arm that connects the two.
 
 #### Earth
 The Earth is a UV sphere with the faces along the equator extruded along normals. An Ico Sphere, Torus, and Cylinder were added to make a brass ring and moon
@@ -38,3 +38,8 @@ The Sun is comprised of a Sphere oject, a stand comprised of a Cylinder object c
 
 ## Materials
 The Materials were mostly made in the same way. Images within the public domain and not requiring acreditation were found online and collected into a small texture library. These were then used as the base colour of the material. The colour data was then fed through a displacement node to create depth.
+
+The Sun material is unique in that is an emissive material. Since it depicts a star, it was decided that a Blackbody simulation would determine colour and would be used as the sole light source of the scene.
+
+## Render
+The final render was completed using the Eevee rendering engine over cycles due to the ease with witch post processing efects such as bloom could be added. This required the addition of an irradiance volume to bake the lighting. A camera was inserted into the scene to take the picture. Its settings were tweaked to add depth of field, and it was positioned for an aesthetic composition. As such, the drawers are not visible in the final render. 
