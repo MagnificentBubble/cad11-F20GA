@@ -3,6 +3,8 @@
 
 The theme of this work was an Alchemist/Astronomer's workspace. As such, the central idea for the scene was to create a writing desk, some clutter, and an orrery as the centerpiece.
 
+Multiple Renders were taken. Alternatives to the final version can be found under ./Appendicies/Render/
+
 ## Models
 All models were made in seperate instances of Blender. They were then copied into new blender file to create the scene. The details of their construction are as follows. No references were used.
 
