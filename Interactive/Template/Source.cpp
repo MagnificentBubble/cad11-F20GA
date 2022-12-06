@@ -234,7 +234,7 @@ void startup()
 	cout << "RENDERER: " << (char *)glGetString(GL_RENDERER) << endl;	
 
 	cout << endl << "Loading content..." << endl;	
-	content.LoadGLTF("assets/dog.gltf");
+	content.LoadGLTF("assets/Tome_Closed.gltf");
 
 	pipeline.CreatePipeline();
 	pipeline.LoadShaders("shaders/vs_model.glsl", "shaders/fs_model.glsl");
