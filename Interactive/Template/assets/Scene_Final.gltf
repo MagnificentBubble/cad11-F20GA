@@ -296,7 +296,7 @@
             "name" : "Wood",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
-                    "index" : 2
+                    "index" : 5
                 },
                 "roughnessFactor" : 0.4,
                 "metallicFactor" : 0.1
@@ -342,12 +342,24 @@
                 },
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5
+            },
+            "normalTexture": {
+                "index": 11
             }
         },
         {
             "doubleSided" : true,
             "name" : "Pot",
-            "pbrMetallicRoughness" : {}
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.3,
+                    0.3,
+                    0.3,
+                    1
+                ],
+                "metallicFactor" : 0.2,
+                "roughnessFactor" : 0
+            }
         },
         {
             "doubleSided" : true,
@@ -426,6 +438,9 @@
                     0.05,
                     1
                 ]
+            },
+            "normalTexture": {
+                "index": 12
             }
             
         },
@@ -747,6 +762,14 @@
         {
             "sampler" : 0,
             "source" : 10
+        },
+        {
+            "sampler" : 0,
+            "source" : 11
+        },
+        {
+            "sampler" : 0,
+            "source" : 12
         }
     ],
     "images" : [
@@ -766,9 +789,9 @@
             "uri" : "textures/Brass_Diffuse.png"
         },
         {
-            "mimeType" : "image/jpeg",
-            "name" : "rough_wood_diff_1k",
-            "uri" : "textures/rough_wood_diff_1k.jpg"
+            "mimeType" : "image/png",
+            "name" : "Charcoal_Diffuse",
+            "uri" : "textures/Charcoal_Diffuse.png"
         },
         {
             "mimeType" : "image/png",
@@ -804,6 +827,16 @@
             "mimeType" : "image/png",
             "name" : "Leather_Normal",
             "uri" : "textures/Leather_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Charcoal_Normal",
+            "uri" : "textures/Charcoal_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "WoodUnpolished_Normal",
+            "uri" : "textures/WoodUnpolished_Normal.png"
         }
     ],
     "accessors" : [
