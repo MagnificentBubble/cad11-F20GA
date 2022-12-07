@@ -32,6 +32,9 @@
                     "index" : 0
                 },
                 "metallicFactor" : 0
+            },
+            "normalTexture": {
+                "index": 1
             }
         },
         {
@@ -46,6 +49,9 @@
                 ],
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5
+            },
+            "normalTexture": {
+                "index": 2
             }
         }
     ],
@@ -78,13 +84,31 @@
         {
             "sampler" : 0,
             "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
         }
     ],
     "images" : [
         {
-            "mimeType" : "image/jpeg",
-            "name" : "pexels-ivan-babydov-7790155",
-            "uri" : "textures/pexels-ivan-babydov-7790155.jpg"
+            "mimeType" : "image/png",
+            "name" : "Cover_Diffuse",
+            "uri" : "textures/Cover_Diffuse.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Cover_Normal",
+            "uri" : "textures/Cover_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Page_Normal",
+            "uri" : "textures/Pages_Normal.png"
         }
     ],
     "accessors" : [

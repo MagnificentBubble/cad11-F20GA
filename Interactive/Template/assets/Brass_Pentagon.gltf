@@ -26,7 +26,11 @@
                 "baseColorTexture" : {
                     "index" : 0
                 },
-                "roughnessFactor" : 0.10000000149011612
+                "roughnessFactor" : 0.10000000149011612,
+                "metallicFactor" : 1.0
+            },
+            "normalTexture": {
+                "index": 1
             }
         }
     ],
@@ -51,13 +55,22 @@
         {
             "sampler" : 0,
             "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
         }
     ],
     "images" : [
         {
-            "mimeType" : "image/jpeg",
+            "mimeType" : "image/png",
             "name" : "Brass_Diffuse",
             "uri" : "textures/Brass_Diffuse.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Brass_Normal",
+            "uri" : "textures/Brass_Normal.png"
         }
     ],
     "accessors" : [

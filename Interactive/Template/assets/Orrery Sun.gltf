@@ -1,0 +1,346 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_materials_emissive_strength"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Orrery_Sun",
+            "translation" : [
+                0,
+                5.200435638427734,
+                0
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0.9,
+                0.5,
+                0.05
+            ],
+            "extensions" : {
+                "KHR_materials_emissive_strength" : {
+                    "emissiveStrength" : 5.0
+                }
+            },
+            "name" : "Sun",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.9,
+                    0.5,
+                    0.05,
+                    1
+                ]
+            }
+            
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Wood",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                },
+                "roughnessFactor" : 0.4,
+                "metallicFactor" : 0.1
+            },
+            "normalTexture": {
+                "index": 3
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Brass",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "roughnessFactor" : 0.10000000149011612,
+                "metallicFactor" : 1.0
+            },
+            "normalTexture": {
+                "index": 1
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Sphere",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 2
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        },
+        {
+            "sampler" : 0,
+            "source" : 3
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Brass_Diffuse",
+            "uri" : "textures/Brass_Diffuse.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Brass_Normal",
+            "uri" : "textures/Brass_Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "WoodPolished_Diffuse",
+            "uri" : "textures/WoodPolished_Diffuse.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "WoodPolished_Normal",
+            "uri" : "textures/WoodPolished_Normal.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 4300,
+            "max" : [
+                2.9940810203552246,
+                3,
+                3.000002145767212
+            ],
+            "min" : [
+                -2.9940829277038574,
+                -3,
+                -3.0000035762786865
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 4300,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 4300,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 6300,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 4594,
+            "max" : [
+                2.10907244682312,
+                3.2148184776306152,
+                2.116300582885742
+            ],
+            "min" : [
+                -2.10907244682312,
+                -9.534399032592773,
+                -2.116300582885742
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 4594,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 4594,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 7434,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 1298,
+            "max" : [
+                0.5731325745582581,
+                3.4599997997283936,
+                0.5750967860221863
+            ],
+            "min" : [
+                -0.5731325745582581,
+                -7.787499904632568,
+                -0.5750967860221863
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 1298,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 1298,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 1938,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 51600,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 51600,
+            "byteOffset" : 51600,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 34400,
+            "byteOffset" : 103200,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12600,
+            "byteOffset" : 137600,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 55128,
+            "byteOffset" : 150200,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 55128,
+            "byteOffset" : 205328,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 36752,
+            "byteOffset" : 260456,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 14868,
+            "byteOffset" : 297208,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 15576,
+            "byteOffset" : 312076,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 15576,
+            "byteOffset" : 327652,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10384,
+            "byteOffset" : 343228,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3876,
+            "byteOffset" : 353612,
+            "target" : 34963
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 357488,
+            "uri" : "Orrery Sun.bin"
+        }
+    ]
+}
